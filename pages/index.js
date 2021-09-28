@@ -36,8 +36,15 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.card} style={{ 
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("/prod1.jpg")`}}>
-        <h2>Product 1</h2>
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("/prod2.jpg")`}}>
+        <h2>Product 2</h2>
+        <p>
+          Lorem What What
+        </p>
+      </div>
+      <div className={styles.card} style={{ 
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("/prod3.jpg")`}}>
+        <h2>Product 3</h2>
         <p>
           Lorem What What
         </p>
