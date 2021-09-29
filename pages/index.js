@@ -2,8 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/NavBar'
+import { useForm } from "react-hook-form";
 
 export default function Home() {
+
+  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const onSubmit = data => console.log(data);
+
   return (
     <div>
     <div className={styles.container}>
@@ -49,6 +54,35 @@ export default function Home() {
         <p>
           Lorem What What
         </p>
+      </div>
+    </div>
+    <div className={styles.entre}>
+      <h2>
+        Meet the entrepreneur of the month
+      </h2>
+    <a><div className={styles.button}>
+      <p>
+        View Products
+      </p>
+    </div></a>
+      <div className={styles.name}>
+        <h2>Oziyah Manjaro</h2>
+      </div>
+    </div>
+    <div className={styles.contact}>
+      <div className={styles.form}>
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <input {...register("First_Name", { required: true })}/>
+          {errors.First_Name && <span>This field is required</span>}
+
+          <input {...register("Email", { required: true })}/>
+          {errors.Email && <span>This field is required</span>}
+
+          <input {...register("Enquiry", { required: true })}/>
+          {errors.Enquiry && <span>This field is required</span>}
+
+          <input type="submit"/>
+        </form>
       </div>
     </div>
     </div>
