@@ -40,7 +40,7 @@
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("/bg_entre.jpg");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 45%;
+  background-size: 50%;
   font-weight: 100;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding-top: 5px;
@@ -52,6 +52,10 @@
   font-size: xxx-large;
   font-weight: 100;
   margin-right: 50%;
+}
+
+.contact {
+  
 }
 
 .name {
