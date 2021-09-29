@@ -50,6 +50,22 @@ export default function Home() {
         </p>
       </div>
     </div>
+    <div className={styles.entre}>
+      <h2>
+        Meet the entrepreneur of the month
+      </h2>
+    <a><div className={styles.button}>
+      <p>
+        View Products
+      </p>
+    </div></a>
+      <div className={styles.name}>
+        <h2>Oziyah Manjaro</h2>
+      </div>
+    </div>
+    <div className={styles.contact}>
+
+    </div>
     </div>
   )
 }

@@ -25,17 +25,60 @@
   background-repeat: no-repeat;
   background-size: 45%;
   font-weight: 100;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.entre {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+  background-color: #30333c;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("/bg_entre.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 45%;
+  font-weight: 100;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 5px;
+}
+
+.entre h2 {
+  color: #fafafa;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xxx-large;
+  font-weight: 100;
+  margin-right: 50%;
+}
+
+.name {
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  padding-left: 65%;
+}
+
+.button {
+  background-color: #c6a17f;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 10%;
+  color: #fafafa;
 }
 
 .top {
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: left;
-  height: 100vh;
+  height: 50vh;
   background-color: #30333c;
   width: 100%;
   color: #fafafa;
