@@ -2,27 +2,27 @@
 
 // function Navbar() {
 //     return (
-//         <div className="NavBar">
-//             <nav className="nav">
+//         <div classNameName="NavBar">
+//             <nav classNameName="nav">
 
-//                 <ul className="nav-items">
-//                     <li className="nav-item">
-//                         <Link to="/" exact activeClassName="active">
+//                 <ul classNameName="nav-items">
+//                     <li classNameName="nav-item">
+//                         <Link to="/" exact activeclassNameName="active">
 //                             Home
 //                         </Link>
 //                     </li>
-//                     <li className="nav-item">
-//                         <Link to="/login" exact activeClassName="active">
+//                     <li classNameName="nav-item">
+//                         <Link to="/login" exact activeclassNameName="active">
 //                             Login
 //                         </Link>
 //                     </li>
-//                     <li className="nav-item">
-//                         <Link to="/register" exact activeClassName="active">
+//                     <li classNameName="nav-item">
+//                         <Link to="/register" exact activeclassNameName="active">
 //                             Register
 //                         </Link>
 //                     </li>
-//                     <li className="nav-item">
-//                         <Link to="/products" exact activeClassName="active">
+//                     <li classNameName="nav-item">
+//                         <Link to="/products" exact activeclassNameName="active">
 //                             View products
 //                         </Link>
 //                     </li>
